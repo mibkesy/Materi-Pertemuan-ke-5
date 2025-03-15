@@ -1,0 +1,23 @@
+/*Style Query*/
+@media screen and (max-width: 394)  {
+	h1 {
+		font-size: 30px;
+		padding: 4px;
+	}
+	h2 {
+		font-size: 14px; 
+		padding: 4px;
+	}
+	body {
+		border-style: solid;
+		font-size: 17px;
+	}
+	@media screen and (max-width: 494) {
+		.left-col, . sidebar {
+			width:  100%;
+		}
+	}img {
+		max-width: 100%
+		height: auto;
+	}
+	

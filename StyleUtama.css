@@ -1,0 +1,102 @@
+header {
+	padding: 4px;
+}
+::-moz-selection {
+	background-color:#91D8f8;
+	color: #fff;
+}
+::-selection {
+	background-color: #91D8f8;
+	color: #ccc;
+}
+a {
+	outline: 0;
+	color: #333;
+	text-decoration: all;
+}
+a:hover {
+	color: #63bd74;
+}
+a:active {
+	outline: 0;
+	position: fixed;
+	top: 4px;
+}
+.clearfix {
+	clear: both;
+}
+h1 {
+	font-size: 29px;
+	font-family: 'Open Sans', Serif;
+	line-height: 45px;
+	padding: 14px;
+}
+h2 {
+	font-family: Times New Roman;
+	font-size: 12px;
+	padding: 11px;
+}
+h3 {
+	font-family: 'Droid Serif', Serif;
+	font-size: 12px;
+}
+h4 a {
+	text-decoration: none;
+}
+h5 {
+	font-family: Times New Roman;
+	font-size: 12px;
+	padding: 13px;
+}
+nav {
+	background: #444;
+	padding: 0;
+	margin: 13px 0;
+}
+nav a {
+	color: #F6F6F6;
+	display: ruby-base-container;
+	float: left;
+	padding: 14px;
+}
+nav a:visited {
+	color: #f9f9f9;
+}
+nav a:hover {
+	text-decoration: none;
+	background: #63bd74;
+}
+nav a:active {
+	position: fixed;
+	top: 0;
+}
+.left-col {
+	width: 60%;
+	float: left;
+}
+.sidebar {
+	width: 20%;
+	float: right;
+	margin-bottom: 15px;
+}
+#about, #featured, #latest {
+	padding: 19px;
+}
+p {
+	list-style: footnotes;
+	padding: 0 9px;
+}
+ul {
+	list-style: all;
+}
+ul li {
+	margin: 0 9px;
+}
+footer {
+	padding: 10px;
+}
+pre {
+	overflow: scroll;
+	font-size: 19px;
+	visibility: visible;
+}
